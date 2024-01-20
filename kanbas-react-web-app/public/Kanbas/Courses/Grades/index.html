@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Grades</title>
+</head>
+<body>
+<table>
+    <tbody>
+    <tr>
+        <td valign="top">
+            <label for="grade-dropdown"></label>
+            <select id="grade-dropdown">
+                <option selected value="Gradebook">Gradebook</option>
+                <option>Quizzes</option>
+                <option>Tests</option>
+                <option>Homework</option>
+            </select>
+            <button>Import</button>
+            <label for="export-dropdown"></label>
+            <select id="export-dropdown">
+                <option selected value="Export">Export</option>
+                <option>Export All</option>
+                <option>Export to PDF</option>
+            </select>
+            <button>Configure</button>
+            <h3>Student Names</h3>
+            <form id="student-name-fields">
+                <label for="student-names"></label>
+                <input id="student-names" placeholder="Search Students"/>
+                <br/>
+            </form>
+            <h3>Assignment Names</h3>
+            <form id="assignment-name-fields">
+                <label for="assignment-names"></label>
+                <input id="assignment-names" placeholder="Search Assignments"/>
+            </form>
+            <br/>
+            <label for="apply-filters"></label>
+            <button id="apply-filters">Apply Filters</button>
+
+            <table border="1" width="100%">
+                <thead>
+                <tr>
+                    <th rowspan="2">Student Names</th>
+                    <th>A1 Setup<br/>Out of 100</th>
+                    <th>A2 HTML<br/>Out of 100</th>
+                    <th>A3 CSS<br/>Out of 100</th>
+                    <th>A4 Bootstrap<br/>Out of 100</th>
+                    <th>A5 JavaScript<br/>Out of 100</th>
+                    <th>A6 React<br/>Out of 100</th>
+                    <th>A7 Redux<br/>Out of 100</th>
+                    <th>A8 Node<br/>Out of 100</th>
+                    <th>A9 Mongo<br/>Out of 100</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+
+                </tr>
+                </tbody>
+            </table>
+
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
