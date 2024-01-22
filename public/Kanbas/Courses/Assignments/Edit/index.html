@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment Editor by Itself</title>
+</head>
+<body>
+<label>
+    <select>
+        <option selected value="SpeedGrader">SpeedGrader</option>
+    </select>
+</label>
+<h3>Assignment Name</h3>
+<label for="assignment-name"></label>
+<input id="assignment-name" type="text" placeholder="A1 - ENV + HTML"/>
+<br/>
+<br/>
+<label for="assignment-description"></label>
+<textarea id="assignment-description" rows="5" cols="30">This is the assignment description.</textarea>
+<br/>
+<br/>
+Points
+<label for="points"></label>
+<br/>
+<input id="points" value="0" type="number" min="0" max="100"/>
+<br/>
+<br/>
+Assignment Group
+<br/>
+<label for="assignment-group"></label>
+<select id="assignment-group">
+    <option selected value="ASSIGNMENTS">ASSIGNMENTS</option>
+    <option>TESTS</option>
+    <option>QUIZZES</option>
+    <option>PROJECTS</option>
+</select>
+<br/>
+<br/>
+Display Grade As
+<br/>
+<label for="grade-display"></label>
+<select id="grade-display">
+    <option selected value="Percentage">Percentage</option>
+    <option>Decimal</option>
+    <option>Whole Number</option>
+</select>
+<br/>
+<br/>
+Submission Type
+<br/>
+<label for="submission-type"></label>
+<select id="submission-type">
+    <option selected value="Online">Online</option>
+    <option>Physical</option>
+</select>
+<br/>
+<br/>
+Online Entry Options
+<br/>
+<input type="checkbox" value="Text Entry" id="text-entry-checkbox"/>
+<label for="text-entry-checkbox">Text Entry</label>
+<br/>
+<input type="checkbox" value="Website URL" id="url-checkbox"/>
+<label for="url-checkbox">Website URL</label>
+<br/>
+<input type="checkbox" value="Media Recordings" id="media-record-checkbox"/>
+<label for="media-record-checkbox">Media Recordings</label>
+<br/>
+<input type="checkbox" value="Student Annotation" id="student-annotation-checkbox"/>
+<label for="student-annotation-checkbox">Student Annotation</label>
+<br/>
+<input type="checkbox" value="File Uploads" id="file-upload-checkbox"/>
+<label for="file-upload-checkbox">File Uploads</label>
+<br/>
+<br/>
+Assign
+<br/>
+Assign to
+<br/>
+<label for="assign-to"></label>
+<input id="assign-to" type="text" placeholder="Everyone"/>
+<br/>
+<br/>
+Due
+<br/>
+<label for="due-date"></label>
+<input id="due-date" type="date"/>
+<br/>
+<br/>
+Available From
+<br/>
+<label for="available-date"></label>
+<input id="available-date" type="date"/>
+<br/>
+<br/>
+Until
+<br/>
+<label for="until-date"></label>
+<input id="until-date" type="date"/>
+<br/>
+<br/>
+<span>
+    <button>Cancel</button>
+    <button>Save</button>
+</span>
+</body>
+</html>

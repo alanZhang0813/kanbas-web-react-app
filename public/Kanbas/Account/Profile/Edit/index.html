@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Profile by Itself</title>
+</head>
+<body>
+<h2>Alan Zhang</h2>
+<label for="name"></label>
+Name: <input id="name" type="text" value="Alan Zhang"/>
+<label for="pronouns"></label>
+Pronouns: <select id="pronouns">
+    <option></option>
+    <option>he/him</option>
+    <option>she/her</option>
+    <option>they/them</option>
+    <option>Other</option>
+</select><br/><br/>
+<label for="title"></label>
+Title: <input id="title" type="text"/><br/><br/>
+<h3>Contact</h3>
+No registered services, you can add some on the <a href="../../../Courses/Settings/screen.html">settings</a> page.<br/>
+<h3>Biography</h3>
+<label for="biography"></label>
+<textarea id="biography">Computer Science Undergrad</textarea>
+<h3>Links</h3>
+<ul>
+    <li></li>
+</ul><br/>
+<table width="100%">
+    <tbody>
+    <tr>
+        <th>Title</th>
+        <th></th>
+        <th>URL</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td align="center">
+            <label for="link-title"></label>
+            <input id="link-title"/>
+        </td>
+        <td align="center">
+            ->
+        </td>
+        <td align="center">
+            <label for="link-url"></label>
+            <input id="link-url"/>
+        </td>
+        <td align="center">
+            <a href="#">Remove</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<button>Add another link</button><br/>
+<button>Cancel</button>
+<a href="../screen.html"><button>Save Profile</button></a>
+<br/>
+<button>Edit Profile</button>
+<a href="../screen.html"><button>Cancel Editing</button></a>
+</body>
+</html>
