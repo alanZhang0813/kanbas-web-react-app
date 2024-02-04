@@ -46,3 +46,9 @@
 .btn-group {
     padding: 10px;
 }
+.list-group .list-group-item {
+    margin-bottom: 5px;
+}
+.link-red {
+    color: #a60000;
+}

@@ -12,7 +12,7 @@
     <div class="container mt-3">
         <div class="row">
             <!--Column that will be the full screen at a small enough size-->
-            <div class="col-md-4 col-lg 3">
+            <div class="col-md-5 col-lg-10">
                 <div class="btn-group" role="toolbar">
                     <button type="button" class="btn btn-primary btn-custom">Collapse All</button>
                     <button type="button" class="btn btn-primary btn-custom">View Progress</button>
@@ -138,13 +138,30 @@
                 </ul>
             </div>
             <!---Column on the side that is hidden first--->
-            <div class="col-md-4 col-lg-6 d-none d-md-block">
+            <div class="col-md-1 col-lg-2 d-lg-block d-md-none d-sm-none">
                 <h3>Course Status</h3>
-                <div class="btn btn-group" role="group">
-                    <button type="button"><i class="fa-solid fa-ban"></i> Unpublish</button>
-                    <button type="button">
-                        <i class="fa-solid fa-circle-check">Published</i></button>
+                <div class="list-group">
+                    <div class="btn-group" role="group">
+                        <button type="button"><i class="fa-solid fa-ban"></i> Unpublish</button>
+                        <button type="button"><i class="fa-solid fa-circle-check"></i> Publish</button>
+                    </div>
+                    <div class="btn-group-vertical" role="group">
+                        <button type="button">Importing Existing Content</button>
+                        <button type="button">Import from Commons</button>
+                        <button type="button">Choose Home Page</button>
+                        <button type="button">View Course Stream</button>
+                        <button type="button">New Announcement</button>
+                        <button type="button">New Analytics</button>
+                        <button type="button">View Course Notifications</button>
+                    </div>
                 </div>
+                <h3>To Do</h3>
+                <hr/>
+                <a href="#" class="link-red">Next Assignment</a>
+                <br/><br/>
+                <h3>Coming Up</h3>
+                <hr/>
+
             </div>
         </div>
     </div>
