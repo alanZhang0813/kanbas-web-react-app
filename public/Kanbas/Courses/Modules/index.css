@@ -1,4 +1,7 @@
-.wd-modules,
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
 .wd-modules * {
     border-radius: 0%;
     border: none;
@@ -8,6 +11,10 @@
 
 .wd-modules {
     margin: 5px;
+    width: 900px;
+}
+.course-status {
+    width: 250px;
 }
 
 .wd-modules > li {
@@ -39,16 +46,21 @@
     background-color: #a40101;
     color: white;
 }
-.btn-group-inline {
-    display: inline-block;
-    width: auto;
-}
-.btn-group {
-    padding: 10px;
-}
 .list-group .list-group-item {
     margin-bottom: 5px;
 }
 .link-red {
     color: #a60000;
+}
+.black-background {
+    color: black;
+    background-color: black;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.close-button:hover {
+    color: red;
 }

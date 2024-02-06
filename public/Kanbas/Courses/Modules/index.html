@@ -9,27 +9,29 @@
 </head>
 
 <body>
-    <div class="container mt-3">
+    <div class="container-fluid">
         <div class="row">
             <!--Column that will be the full screen at a small enough size-->
             <div class="col-md-5 col-lg-10">
-                <div class="btn-group" role="toolbar">
-                    <button type="button" class="btn btn-primary btn-custom">Collapse All</button>
-                    <button type="button" class="btn btn-primary btn-custom">View Progress</button>
-                    <div class="btn-group btn-group-inline" role="group">
-                        <button type="button" class="btn btn-primary btn-custom dropdown-toggle" data-bs-toggle="dropdown">
-                            <i class="fa-regular fa-circle-check" style="color: #008a00;"></i>
-                            Publish All
+                <div class="d-flex justify-content-end mb-3">
+                    <div class="btn-group" role="toolbar">
+                        <button type="button" class="btn btn-primary btn-custom">Collapse All</button>
+                        <button type="button" class="btn btn-primary btn-custom">View Progress</button>
+                        <div class="btn-group btn-group-inline" role="group">
+                            <button type="button" class="btn btn-primary btn-custom dropdown-toggle" data-bs-toggle="dropdown">
+                                <i class="fa-regular fa-circle-check" style="color: #008a00;"></i>
+                                Publish All
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Publish One</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-add-module">
+                            <i class="fa-solid fa-plus"></i>
+                            Add Module
                         </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Publish One</a></li>
-                        </ul>
+                        <button type="button" class="btn btn-primary btn-custom"><i class="fa fa-ellipsis-vertical"></i></button>
                     </div>
-                    <button type="button" class="btn btn-primary btn-add-module">
-                        <i class="fa-solid fa-plus"></i>
-                        Add Module
-                    </button>
-                    <button type="button" class="btn btn-primary btn-custom"><i class="fa fa-ellipsis-vertical"></i></button>
                 </div>
                 <hr/>
                 <ul class="list-group wd-modules">

@@ -1,6 +1,55 @@
-.top-row-buttons {
-    position: relative;
-    top: 0;
-    right: 100px;
+.wd-modules,
+.wd-modules * {
+    border-radius: 0%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wd-modules {
+    margin: 5px;
+    width: 900px;
+}
+
+.wd-modules > li {
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    border-left: none !important;
+}
+
+.wd-modules > li > div {
+    padding: 6px;
+    border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+    padding: 5px;
+    border-top: 1px solid gray !important;
+    border-left: 2px solid green;
+}
+
+.wd-modules > li {
+    margin-bottom: 20px;
+}
+.btn.btn-primary.btn-custom {
+    background-color: #a1a1a1;
+    color: black;
+    border-color: black;
+}
+.btn.btn-primary.btn-add-module {
+    background-color: #a40101;
+    color: white;
+}
+.btn-group-inline {
+    display: inline-block;
+    width: auto;
+}
+.btn-group {
     padding: 10px;
+}
+.list-group .list-group-item {
+    margin-bottom: 5px;
+}
+.link-red {
+    color: #a60000;
 }
