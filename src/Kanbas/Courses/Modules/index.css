@@ -1,0 +1,99 @@
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+.wd-modules * {
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wd-modules {
+    margin: 150px 5px 5px;
+    left: 500px;
+    width: 850px;
+}
+.course-status {
+    width: 250px;
+}
+
+.wd-modules > li {
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    border-left: none !important;
+}
+
+.wd-modules > li > div {
+    padding: 6px;
+    border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+    padding: 5px;
+    border-top: 1px solid gray !important;
+    border-left: 2px solid green;
+}
+
+.wd-modules > li {
+    margin-bottom: 20px;
+}
+.btn.btn-primary.btn-custom {
+    background-color: #a1a1a1;
+    color: black;
+    border-color: black;
+}
+.btn.btn-primary.btn-add-module {
+    background-color: #a40101;
+    color: white;
+}
+.list-group .list-group-item {
+    margin-bottom: 5px;
+}
+.link-red {
+    color: #a60000;
+}
+.black-background {
+    color: black;
+    background-color: black;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.close-button:hover {
+    color: red;
+}
+.breadcrumb-bar {
+    font-size: large;
+    padding-left: 120px;
+    padding-top: 25px;
+}
+.breadcrumb-bar-red {
+    color: red;
+}
+.btn-toolbar {
+    padding-top: 100px;
+    width: 600px;
+    float: right;
+}
+.toolbar-breadcrumb {
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+.toolbar-breadcrumb-bars {
+    color: white;
+    padding: 25px;
+}
+.toolbar-breadcrumb-breadcrumb {
+    margin: auto;
+    color: white;
+    padding: 25px;
+}
+.toolbar-breadcrumb-chevron {
+    margin-left: auto;
+    color: white;
+    padding: 25px;
+}
