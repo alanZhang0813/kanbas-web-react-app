@@ -16,7 +16,7 @@ function Courses() {
             <div>
                 <div
                     className="overflow-y-scroll position-fixed bottom-0 end-0"
-                    style={{ left: "320px", top: "50px" }} >
+                    style={{ left: "320px", top: "80px" }} >
                     <Routes>
                         <Route path="/" element={<Navigate to="Home" />} />
                         <Route path="Home" element={<Home/>} />

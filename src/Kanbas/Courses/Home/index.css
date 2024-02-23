@@ -1,0 +1,22 @@
+.button-toolbar {
+    float: right;
+    left: 50px;
+    margin-right: 20px;
+    min-width: 150px;
+    min-height: 50px;
+}
+.button {
+    padding: 5px;
+}
+.add-module {
+    padding: 5px;
+    background-color: red;
+}
+.course-status-button > button {
+    text-align: left;
+    margin: 1px;
+    width: 250px;
+}
+.to-do {
+    padding-top: 25px;
+}
