@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import { FaCheckCircle, FaEllipsisV, FaPlusCircle } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
-import { assignments } from "../../Database";
+import db from "../../Database";
 function Assignments() {
+    const [assignments, setAssignments] = useState(db.assignments);
     const { courseId } = useParams();
     const assignmentList = assignments.filter(
         (assignment) => assignment.course === courseId);
