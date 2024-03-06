@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
+import "./index.css";
 import db from "../Database";
 function Dashboard({courses, course, setCourse, addNewCourse, deleteCourse, updateCourse}: {
     courses: {
@@ -34,18 +35,22 @@ function Dashboard({courses, course, setCourse, addNewCourse, deleteCourse, upda
         <div className="p-4">
             <h1>Dashboard</h1>
             <h5>Course</h5>
-            <input value={course.name} className="form-control"
+            <input value={course.name} className="form-control new-course"
                    onChange={(e) => setCourse({...course, name: e.target.value})}/>
-            <input value={course.number} className="form-control"
+            <input value={course.number} className="form-control new-course"
                    onChange={(e) => setCourse({...course, number: e.target.value})}/>
-            <input value={course.startDate} className="form-control" type="date"
+            <input value={course.startDate} className="form-control new-course" type="date"
                    onChange={(e) => setCourse({...course, startDate: e.target.value})}/>
-            <input value={course.endDate} className="form-control" type="date"
+            <input value={course.endDate} className="form-control new-course" type="date"
                    onChange={(e) => setCourse({...course, endDate: e.target.value})}/>
-            <button onClick={addNewCourse}>
+            <button
+                onClick={addNewCourse}
+                className={"add-button"}>
                 Add Course
             </button>
-            <button onClick={updateCourse}>
+            <button
+                className={"add-button"}
+                onClick={updateCourse}>
                 Update
             </button>
             <h2>Published Courses ({courses.length})</h2>
@@ -61,13 +66,13 @@ function Dashboard({courses, course, setCourse, addNewCourse, deleteCourse, upda
                                     <Link className="card-title" to={`/Kanbas/Courses/${course._id}/Home`}
                                           style={{textDecoration: "none", color: "navy", fontWeight: "bold"}}>
                                         {course.name}
-                                        <button className={"btn btn-primary"} onClick={(event) => {
+                                        <button className={"btn btn-primary edit-button"} onClick={(event) => {
                                             event.preventDefault();
                                             setCourse(course);
                                         }}>Edit
                                         </button>
 
-                                        <button className={"btn btn-primary"} onClick={(event) => {
+                                        <button className={"btn btn-primary delete-button"} onClick={(event) => {
                                             event.preventDefault();
                                             deleteCourse(course._id);
                                         }}>Delete

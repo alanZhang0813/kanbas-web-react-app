@@ -1,0 +1,47 @@
+.delete-button {
+    width: 5rem;
+    background-color: #7c0a0a; /* Red */
+    border: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.edit-button {
+    width: 5rem;
+    background-color: #008f07;
+    border: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    float: right;
+}
+.add-button {
+    width: 7.5rem;
+    background-color: #0b7a3a; /* Blue */
+    border: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.new-course {
+    width: 500px;
+    margin-bottom: 5px;
+}

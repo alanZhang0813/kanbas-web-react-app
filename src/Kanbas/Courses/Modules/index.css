@@ -8,16 +8,14 @@
     margin: 0;
     padding: 0;
 }
-
+.course-status {
+    width: 250px;
+}
 .wd-modules {
     margin: 5px 5px;
     left: 500px;
     width: 750px;
 }
-.course-status {
-    width: 250px;
-}
-
 .wd-modules > li {
     background-color: lightgray;
     border: 1px solid gray !important;
@@ -37,15 +35,6 @@
 
 .wd-modules > li {
     margin-bottom: 20px;
-}
-.btn.btn-primary.btn-custom {
-    background-color: #a1a1a1;
-    color: black;
-    border-color: black;
-}
-.btn.btn-primary.btn-add-module {
-    background-color: #a40101;
-    color: white;
 }
 .list-group .list-group-item {
     margin-bottom: 5px;
@@ -96,4 +85,60 @@
     margin-left: auto;
     color: white;
     padding: 25px;
+}
+.module-edit {
+    width: 5rem;
+    background-color: #008f07;
+    border: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    float: right;
+}
+.module-delete {
+    width: 5rem;
+    background-color: #7c0a0a; /* Red */
+    border: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    float: right;
+}
+.module-update {
+    width: 5rem;
+    background-color: #0040d0; /* Blue */
+    border: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    float: right;
+}
+.module-update-title {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 500px;
+}
+.module-update-description {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 500px;
+    height: 53px;
 }
