@@ -21,7 +21,8 @@ function Courses({courses} : {courses:
     const course = courses.find((course) => course._id === courseId);
     return (
         <div>
-            <h1><HiMiniBars3 /> {course?.number}</h1>
+            <h1><HiMiniBars3 /> {course?.name}</h1>
+            <hr/>
             <CourseNavigation />
             <div>
                 <div
